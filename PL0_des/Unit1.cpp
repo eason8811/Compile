@@ -452,7 +452,6 @@ void STATEMENT(SYMSET FSYS,int LEV,int &TX) {   /*STATEMENT*/
             // EXPRESSION(FSYS,LEV,TX);
             // if (i!=0) GEN(STO,LEV-TABLE[i].vp.LEVEL,TABLE[i].vp.ADR);
 
-            // ↓↓↓ 新增部分 ↓↓↓
             if (SYM==BECOMES) {
                 GetSym();
                 EXPRESSION(FSYS,LEV,TX);
@@ -473,7 +472,6 @@ void STATEMENT(SYMSET FSYS,int LEV,int &TX) {   /*STATEMENT*/
                 if (i!=0) GEN(STO,LEV-TABLE[i].vp.LEVEL,TABLE[i].vp.ADR);
             }
             else Error(13);
-            // ↑↑↑ 新增部分 ↑↑↑
 
             break;
         case READSYM:
