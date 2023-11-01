@@ -1,0 +1,14 @@
+PROGRAM EX01;
+VAR A,B,C;
+BEGIN
+  B:=8;
+  C:=2;
+  IF B>5 THEN
+    WRITE(B)
+  ELSE
+    WRITE(C);
+  IF B<5 THEN
+    WRITE(B)
+  ELSE
+    WRITE(C);
+END.
