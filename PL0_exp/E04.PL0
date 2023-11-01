@@ -1,0 +1,9 @@
+PROGRAM E04;
+VAR A,B,C;
+BEGIN
+  ELSE;
+  FOR;
+  DO;
+  UNTIL;
+  RETURN;
+END.

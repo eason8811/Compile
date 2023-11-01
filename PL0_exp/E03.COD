@@ -1,0 +1,18 @@
+=== COMPILE PL0 ===
+  0 PROGRAM E03 
+  0 VAR A; 
+***   ^5
+  1 BEGIN 
+  2   *=; 
+  2   /=; 
+  2   &; 
+  2   ||; 
+  2   //  123456 
+  2   /* 666 
+  2       777 
+  2       888*/ 
+  2 END. 
+  0  JMP   0   1
+  1  INI   0   4
+  2  OPR   0   0
+ERROR IN PL/0 PROGRAM
