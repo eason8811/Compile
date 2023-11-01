@@ -1,0 +1,10 @@
+PROGRAM E01;
+VAR A,B,C,D;
+BEGIN
+  A:=64;
+  A/=2;
+  WRITE(A);
+  B:=5;
+  B*=2;
+  WRITE(B);
+END.
